@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  background-color: white;
+  box-shadow: 0 0 10px 0 #cccccc; }
+
+.logo {
+  vertical-align: middle;
+  height: 50px; }

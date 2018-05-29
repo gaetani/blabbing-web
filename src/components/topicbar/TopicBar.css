@@ -1,0 +1,20 @@
+.topicBar {
+  width: 100%;
+  padding: 5px; }
+
+.topicBar .topicBar-content {
+  padding-left: 10px;
+  background-color: #0b5351;
+  border-radius: 0.25rem;
+  color: white;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center; }
+
+.topicBar .topicBar-content .topicBar-icon {
+  vertical-align: middle;
+  font-size: 40px; }
+
+.topicBar .topicBar-content .topicBar-text {
+  margin-top: 0.50rem;
+  padding-left: 0.5em; }
