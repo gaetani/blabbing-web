@@ -1,0 +1,263 @@
+
+.message-card-horizontal {
+    flex: 2 2 100%;
+    margin-bottom: 2px;
+    border-bottom-right-radius: 0;
+
+    font-size: 0.8rem;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 1px;
+    z-index: 1;
+    margin-left: 15px;
+    margin-bottom: 1px;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.message-card img {
+    float: left;
+    width: 4rem;
+    min-width: 50px;
+    border-radius: 50%;
+}
+
+.message-card {
+    flex-flow: row wrap;
+}
+
+.message-card .user {
+    font-size: 13px;
+    max-width: 4rem;
+    margin-left: -10px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.message-card .avatar::after{
+        content: "";
+        position: absolute;
+        
+        border: 8px solid white;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+      z-index: 2;
+}
+
+.message-card .message-content{
+    font-size: 0.8rem;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 1px;
+    z-index: 1;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.message-card .message-content > blockquote > a{
+    word-break: break-word;
+}
+
+
+.quoteContainer.expanded iframe[data-s9e-mediaembed],
+	.quoteContainer.expanded [data-s9e-mediaembed] iframe
+	{
+		max-height: none;
+		max-width:  none;
+	}/* .bbCodeX classes are designed to exist inside .baseHtml. ie: they have no CSS reset applied */
+
+.bbCodeBlock
+{
+	background-color: rgb(248,251,253);
+margin: 1em 2em 1em 0;
+border: 1px solid rgb(221, 229, 234);
+overflow: auto;
+
+}
+
+	.bbCodeBlock .bbCodeBlock,
+	.hasJs .bbCodeBlock .bbCodeSpoilerText,
+	.messageList.withSidebar .bbCodeBlock
+	{
+		margin-right: 0;
+	}
+
+	/* mini CSS reset */
+	.bbCodeBlock pre,
+	.bbCodeBlock blockquote
+	{
+		margin: 0;
+	}
+
+	.bbCodeBlock img
+	{
+		border: none;
+	}
+
+.bbCodeBlock .type
+{
+	font-size: 13px;
+font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+color: rgb(52,77,93);
+background-color: #FFFFFF;
+padding: 8px;
+border-bottom: 1px solid rgb(221, 229, 234);
+
+}
+
+.bbCodeBlock pre,
+.bbCodeBlock .code
+{
+	font-size: 10pt;
+font-family: Consolas, 'Courier New', Courier, monospace;
+background-color: rgb(248,251,253);
+background-repeat: repeat-x;
+background-position: top;
+padding-right: 8px;
+padding-left: 8px;
+word-wrap: normal;
+overflow: auto;
+line-height: 26px;
+min-height: 30px;
+max-height: 500px;
+_width: 600px;
+direction: ltr;
+background-image: -webkit-repeating-linear-gradient(top, rgba(0,0,0,.015) 0px, rgba(0,0,0,.015) 26px, rgba(0,0,0,.045) 26px, rgba(0,0,0,.045) 52px);
+background-image: -moz-repeating-linear-gradient(top, rgba(0,0,0,.015) 0px, rgba(0,0,0,.015) 26px, rgba(0,0,0,.045) 26px, rgba(0,0,0,.045) 52px);
+background-image: -ms-repeating-linear-gradient(top, rgba(0,0,0,.015) 0px, rgba(0,0,0,.015) 26px, rgba(0,0,0,.045) 26px, rgba(0,0,0,.045) 52px);
+background-image: -o-repeating-linear-gradient(top, rgba(0,0,0,.015) 0px, rgba(0,0,0,.015) 26px, rgba(0,0,0,.045) 26px, rgba(0,0,0,.045) 52px);
+background-image: repeating-linear-gradient(top, rgba(0,0,0,.015) 0px, rgba(0,0,0,.015) 26px, rgba(0,0,0,.045) 26px, rgba(0,0,0,.045) 52px);
+
+}
+
+.bbCodeBlock .code
+{
+	white-space: nowrap;
+}
+
+.bbCodeQuote
+{
+	border-color: rgb(221, 229, 234);
+
+}
+
+.bbCodeQuote .attribution
+{
+	font-size: 13px;
+color: rgb(52,77,93);
+background-color: #FFFFFF;
+background-repeat: repeat-x;
+background-position: top;
+padding: 8px;
+border-bottom: 1px solid rgb(221, 229, 234);
+border-left: 2px solid rgb(70, 102, 124);
+
+}
+
+.bbCodeQuote .quoteContainer
+{
+	overflow: hidden;
+	position: relative;
+
+	font-style: italic;
+font-size: 9pt;
+background-color: rgb(248,251,253);
+background-repeat: repeat-x;
+background-position: top;
+padding: 8px;
+border-left: 2px solid rgb(70, 102, 124);
+
+}
+
+
+	.bbCodeQuote .quoteContainer .quote
+	{
+		max-height: 150px;
+		overflow: hidden;
+		padding-bottom: 1px;
+	}
+
+		.NoJs .bbCodeQuote .quoteContainer .quote
+		{
+			max-height: none;
+		}
+
+	.bbCodeQuote .quoteContainer .quoteExpand
+	{
+		display: none;
+		box-sizing: border-box;
+		position: absolute;
+		height: 80px;
+		top: 86px;
+		left: 0;
+		right: 0;
+
+		font-size: 11px;
+		line-height: 1;
+		text-align: center;
+		color: rgb(70, 102, 124);
+		cursor: pointer;
+		padding-top: 65px;
+		background: -webkit-linear-gradient(top, rgba(248, 251, 253, 0) 0%, rgb(248,251,253) 80%);
+		background: -moz-linear-gradient(top, rgba(248, 251, 253, 0) 0%, rgb(248,251,253) 80%);
+		background: -o-linear-gradient(top, rgba(248, 251, 253, 0) 0%, rgb(248,251,253) 80%);
+		background: linear-gradient(to bottom, rgba(248, 251, 253, 0) 0%, rgb(248,251,253) 80%);
+
+		
+	}
+
+	.bbCodeQuote .quoteContainer .quoteExpand.quoteCut
+	{
+		display: block;
+	}
+
+	.bbCodeQuote .quoteContainer.expanded .quote
+	{
+		max-height: none;
+	}
+
+	.bbCodeQuote .quoteContainer.expanded .quoteExpand
+	{
+		display: none;
+	}
+
+
+	.bbCodeQuote img
+	{
+		max-height: 150px;
+	}
+
+	.bbCodeQuote iframe, .bbCodeQuote [data-s9e-mediaembed],
+	.bbCodeQuote .fb_iframe_widget,
+	.bbCodeQuote object,
+	.bbCodeQuote embed
+	{
+		max-width: 200px;
+		max-height: 150px;
+	}
+
+	.bbCodeQuote iframe:-webkit-full-screen
+	{
+		max-width: none;
+		max-height: none;
+	}
+
+	.bbCodeQuote iframe:-moz-full-screen
+	{
+		max-width: none;
+		max-height: none;
+	}
+
+	.bbCodeQuote iframe:-ms-fullscreen
+	{
+		max-width: none;
+		max-height: none;
+	}
+
+	.bbCodeQuote iframe:fullscreen
+	{
+		max-width: none;
+		max-height: none;
+	}

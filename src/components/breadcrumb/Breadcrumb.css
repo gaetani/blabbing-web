@@ -1,0 +1,32 @@
+.topicBar {
+  padding: 5px; }
+
+.breadcrumb-component {
+  padding: 5px;
+  padding-left: 10px;
+  background-color: #0b5351;
+  color: white;
+  font-family: sans-serif;
+  line-height: 0; }
+
+.breadcrumb-component .icon {
+  vertical-align: middle;
+  font-size: 2.5rem; }
+
+.breadcrumb-component .breadcrumb-item {
+  padding-top: 1.3rem; }
+
+.breadcrumb-component .breadcrumb-item a {
+  color: white; }
+
+.breadcrumb-component .breadcrumb-topic {
+  padding-left: 1.3rem; }
+
+.topicBar .topic-text {
+  padding-left: 10px;
+  background-color: white;
+  border-radius: 0.25rem;
+  color: gray;
+  font-family: sans-serif;
+  display: flex;
+  align-items: center; }

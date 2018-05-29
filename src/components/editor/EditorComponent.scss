@@ -1,0 +1,38 @@
+
+
+@-webkit-keyframes fadeIn{
+    from {height: 80px;}
+    to { height: 25rem;}
+}
+
+@keyframes fadeIn {
+    from {height: 80px;}
+    to {height: 25rem;}
+}
+
+.toolbar-class-hidden{
+    display: none;
+
+}
+
+.editor:hover .toolbar-class-show{
+    display: flex;
+
+}
+
+.editor {
+    border: 1px solid #ccc;
+    padding: 10;
+    cursor: text;
+}
+
+
+.editor-class-expanded{
+    height: 25rem;
+   -webkit-animation: fadeIn 1s;
+   animation: fadeIn 1s;
+}
+
+.editor-class-lower{
+    max-height: 80px;
+}
